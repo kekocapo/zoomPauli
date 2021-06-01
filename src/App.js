@@ -1,25 +1,36 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Tasks from './components/Tasks'
+import tasks from './tasks.json'
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+console.log(tasks);
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component
+{
+  state = {
+    tasks: tasks
+  }
+
+  render()
+  {
+    return (
+    <Container className="p-3">
+    <Jumbotron style={{  backgroundColor:'pink'}}>
+      <h1 className="header">Zooms de Pauli</h1>     
+    </Jumbotron>
+  
+    <div class="py-5">
+    <Container fluid>
+      <Tasks tasks= {this.state.tasks} />
+     </Container>
+     </div>
+  
+  </Container>
+    )
+
+  }
 }
 
 export default App;

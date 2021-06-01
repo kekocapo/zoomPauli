@@ -1,7 +1,14 @@
+/* The following line can be included in a src/App.scss */
+
+
+
 .App {
   text-align: center;
 }
-
+.card-block {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
