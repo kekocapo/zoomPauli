@@ -2,7 +2,7 @@
     {
         "id": 0,
         "Materia": "Escuela",
-        "Link": "",
+        "Link": "https://zoom.us/j/5977836539?from=join#success",
         "Codigo": "5977836539",
         "Password": "SEGUNDO",
         "Dia": "JUEVES 14:00hs a 14:45hs"
@@ -11,14 +11,14 @@
         "id": 1,
         "Materia": "Musica",
         "Link": "https://us04web.zoom.us/j/4496447818?pwd=WWM0eEllcGliTEdoYzg4elVxdGRGdz09",
-        "Codigo": "kkkk",
-        "Password": "kepokek",
+        "Codigo": "449 644 7818",
+        "Password": "Musica2021",
         "Dia": "JUEVES 14:00hs a 14:45hs"
     },
     {
         "id": 2,
         "Materia": "Educación Física",
-        "Link": "",
+        "Link": "https://zoom.us/j/6552956591?from=join#success",
         "Codigo": "6552956591",
         "Password": "1ihKTY",
         "Dia": "VIERNES 15:15hs a 16:00hs"
@@ -26,17 +26,11 @@
     {
         "id": 3,
         "Materia": "Patin",
-        "Link": "",
-        "Codigo": "kkkk",
-        "Password": "kepokek"
+        "Link": "https://meet.google.com/sfk-xxhr-hru",
+        "Codigo": "",
+        "Password": ""
     },
-    {
-        "id": 4,
-        "Materia": "Ingles - TEAM UP",
-        "Link": "https://us02web.zoom.us/j/7249633589?pwd=blhOMURNK2NLcmEwRDJpVFhWb0g4dz09",
-        "Codigo": "724 963 3589",
-        "Password": "1234"
-    },
+   
     {
         "id": 5,
         "Materia": "Tecnología",
@@ -48,7 +42,7 @@
     {
         "id": 6,
         "Materia": "Plástica",
-        "Link": "",
+        "Link": "https://zoom.us/j/79995142123?from=join#success",
         "Codigo": "79995142123",
         "Password": "yi7y1N",
         "Dia": "JUEVES 15:15hs a 16:00hs"
@@ -60,5 +54,12 @@
         "Codigo": "3494045097",
         "Password": "INGLES",
         "Dia": "VIERNES 16:00hs a 16:45hs"
+    },
+    {
+        "id": 4,
+        "Materia": "Ingles - TEAM UP",
+        "Link": "https://us02web.zoom.us/j/7249633589?pwd=blhOMURNK2NLcmEwRDJpVFhWb0g4dz09",
+        "Codigo": "724 963 3589",
+        "Password": "1234"
     }
 ]
