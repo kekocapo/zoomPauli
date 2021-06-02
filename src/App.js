@@ -17,19 +17,18 @@ class App extends React.Component
   {
     return (
     <Container className="p-3">
-    <Jumbotron style={{  backgroundColor:'pink'}}>
-      <h1 className="header">Zooms de Pauli</h1>     
-    </Jumbotron>
-  
-    <div className="py-5">
-    <Container fluid>
-      <Tasks tasks= {this.state.tasks} />
-     </Container>
-     </div>
-  
-  </Container>
+      <Jumbotron style={{  backgroundColor:'pink'}}>
+        <h1 className="header">Zooms Nueva Generación</h1>    
+        <h2 className="">Pauli</h2> 
+      </Jumbotron>
+    
+      <div className="container" style={{ backgroundColor:'lightblue'}}>
+        <div className="row">        
+            <Tasks tasks= {this.state.tasks} />    
+        </div>
+      </div>    
+    </Container>
     )
-
   }
 }
 

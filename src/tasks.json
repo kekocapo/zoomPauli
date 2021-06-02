@@ -28,7 +28,8 @@
         "Materia": "Patin",
         "Link": "https://meet.google.com/sfk-xxhr-hru",
         "Codigo": "",
-        "Password": ""
+        "Password": "",
+        "Dia": "MARTES/JUEVES 17:00hs a 18:00hs"
     },
    
     {
@@ -60,6 +61,7 @@
         "Materia": "Ingles - TEAM UP",
         "Link": "https://us02web.zoom.us/j/7249633589?pwd=blhOMURNK2NLcmEwRDJpVFhWb0g4dz09",
         "Codigo": "724 963 3589",
-        "Password": "1234"
+        "Password": "1234",
+        "Dia": "MIERCOLES 19:00hs a 20:30hs"
     }
 ]
