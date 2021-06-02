@@ -1,6 +1,4 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
-import { Col } from 'react-bootstrap';
 
 class Tasks extends React.Component{
 
@@ -8,20 +6,20 @@ class Tasks extends React.Component{
 
         const {task} = this.props;
        
-        var link = <a></a>
+        var link = <div></div>
      
-        if (task.Link != "")  {
-           link =  <a target="_blank" href={task.Link}>Link</a>
+        if (task.Link !== "")  {
+           link =  <a target="_blank" rel="noreferrer" href={task.Link}>Link</a>
         }
 
         return (
-            <div class="col-md-4" style={{ padding:10, backgroundColor:'lightblue'}}>
-                 <div class="card">
-                    <div class="card-block">
-                        <h4 class="card-title">{task.Materia}</h4>
-                        <h6 class="card-subtitle text-muted">{task.Dia}</h6><br/>
-                        <div class="card-text p-y-1">Código: {task.Codigo}</div>
-                        <div class="card-text p-y-1">Password: {task.Password}</div>
+            <div className="col-md-4" style={{ padding:10, backgroundColor:'lightblue'}}>
+                 <div className="card">
+                    <div className="card-block">
+                        <h4 className="card-title">{task.Materia}</h4>
+                        <h6 className="card-subtitle text-muted">{task.Dia}</h6><br/>
+                        <div className="card-text p-y-1">Código: {task.Codigo}</div>
+                        <div className="card-text p-y-1">Password: {task.Password}</div>
                         {link}
                     </div>
                  </div>              

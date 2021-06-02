@@ -4,7 +4,7 @@ import Tasks from './components/Tasks'
 import tasks from './tasks.json'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+
 console.log(tasks);
 
 class App extends React.Component
@@ -21,7 +21,7 @@ class App extends React.Component
       <h1 className="header">Zooms de Pauli</h1>     
     </Jumbotron>
   
-    <div class="py-5">
+    <div className="py-5">
     <Container fluid>
       <Tasks tasks= {this.state.tasks} />
      </Container>
